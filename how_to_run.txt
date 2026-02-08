@@ -1,0 +1,9 @@
+#for backend
+conda activate env
+cd backend
+uvicorn main:app --reload --port 8000
+
+#for frontend
+conda activate env
+cd frontend
+streamlit run app.py

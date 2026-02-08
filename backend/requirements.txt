@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+pillow
+# Link to the CUDA 12.1 enabled torch version
+--index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
