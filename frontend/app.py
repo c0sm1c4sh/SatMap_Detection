@@ -73,7 +73,7 @@ elif mode == "Land Change Analysis":
     # Locations
     location = st.selectbox(
         "Select Location",
-        ["Banjara Hills", "Durgam Cheruvu", "Anurag University", "Gachibowli"]
+        ["Bachupally", "Durgam Cheruvu", "Anurag University", "Secunderabad"]
     )
 
     # Fixed years
@@ -83,10 +83,10 @@ elif mode == "Land Change Analysis":
 
     # Folder mapping
     folder_map = {
-        "Banjara Hills": "data/banjara",
-        "Durgam Cheruvu": "data/lake",
-        "Anurag University": "data/college",
-        "Gachibowli": "data/gachibowli"
+        "Bachupally": "data/bachupally",
+        "Durgam Cheruvu": "data/durgam",
+        "Anurag University": "data/anurag",
+        "Secunderabad": "data/secunderabad"
     }
 
     img_path = f"{folder_map[location]}/{year}.png"
