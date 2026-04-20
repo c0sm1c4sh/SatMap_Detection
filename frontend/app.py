@@ -102,13 +102,13 @@ elif mode == "Land Change Analysis":
     st.subheader("📊 Observations")
 
     if location == "Durgam Cheruvu":
-        st.error("⚠️ Significant reduction in water body area observed over time.")
-    elif location == "Banjara Hills":
-        st.warning("🏙️ Rapid urban expansion replacing green cover.")
+        st.error("Slight reduction in water body area observed over time. Increase in industrial structures.")
+    elif location == "Bachupally":
+        st.warning("Rapid urban expansion replacing green cover.")
     elif location == "Anurag University":
-        st.info("🏗️ Infrastructure development increased over time.")
-    elif location == "Gachibowli":
-        st.warning("🏢 IT and commercial expansion visible in recent years.")
+        st.info("Infrastructure development increased over time. Drying up of water body. Water Reserve Rising over time")
+    elif location == "Secunderabad":
+        st.warning("Development of resedential areas. Reduction in vegetation cover.")
 
     # ------------------ COMPARISON ------------------
     st.divider()
